@@ -16,10 +16,30 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     
     <!-- scripts -->
+    <script type="text/javascript" src="app/deviceCheck.js"></script>
+    
+    <script>
+    function includeJavaScript( url ){
+        var tag = document.createElement( 'script' );
+        tag.type = "text/javascript";
+        tag.src = url;
+
+        // Insert it to the <head>
+        document.getElementsByTagName("head")[0].appendChild( tag );
+    }
+    </script>
+
     <!-- note: use jquery-1.8.0.min.js & jquery.mobile-1.1.1.min.js for production -->
-    <script type="text/javascript" src="vendor/jquery/jquery-1.8.0.js"></script>
-    <script type="text/javascript" src="vendor/jquery.mobile/jquery.mobile-1.1.1.js"></script>
-    <script type="text/javascript" src="app/springboard.js"></script>
+	<script>
+		if (deviceCheck.windows8) {
+		    includeJavaScript("vendor/jquery/jquery-1.8.2-win8-1.0.js");
+		}
+		else {
+		    includeJavaScript("vendor/jquery/jquery-1.8.0.js");
+		}
+		includeJavaScript("vendor/jquery.mobile/jquery.mobile-1.1.1.js");
+		includeJavaScript("app/springboard.js");
+	</script>
     
     <!-- title of app -->
     <title>Springboard</title>
@@ -51,7 +71,7 @@
                 <!-- row 1, column 1 -->
                 <div class="ui-block-a">
                     <a href="#friends" data-transition="flip">
-                        <img src="images/springboard/facebook.png" class="springboard-portrait-img"></img>
+                        <img src="images/springboard/facebook.png" class="springboard-portrait-img" />
                         <p>Friends</p>
                     </a>
                 </div>

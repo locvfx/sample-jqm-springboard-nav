@@ -2,12 +2,22 @@ This sample is a multi-page jQuery Mobile scaffold using springboard-based navig
 It also demonstrates custom styling techniques to adapt to various screen sizes and 
 rotations, and achieve a different look and feel than jQuery Mobile defaults.
 
+Intel(R) HTML5 Development Environment Beta
+-------------------------------------------
+This sample is part of the Intel(R) HTML5 Development Environment tool. 
+Please sign up the beta at http://software.intel.com/en-us/html5.
+To see the technical detail of the sample, please visit the sample article page 
+at http://software.intel.com/en-us/articles/jquery-mobile-springboard-navigation. 
 
 License Information Follows
 ---------------------------
 * index.html
 * css/style.css
 * app/springboard.js
+* app/deviceCheck.js
+* win8-images/*.png
+* win8-proj/*.jsproj,*.pfx,*.appxmanifest
+* icon.png
 * config.xml
 * sample_icon_72x72.png
 * abstract.txt
@@ -64,6 +74,15 @@ Copyright (c) 2012, jQuery Foundation and other contributors.
 * source:   http://jquerymobile.com/
 * license:  http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
 
+jQuery for Windows 8
+--------------------
+* vendor/jquery/jquery-1.8.2-win8-1.0.js
+
+Copyright (c) 2012, appendTo, LLC
+Copyright (c) 2012, jQuery Foundation and other contributors.
+
+* source:   https://github.com/appendto/jquery-win8
+* license:  http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
 
 Springboard Icons
 -----------------
