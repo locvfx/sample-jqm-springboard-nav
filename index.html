@@ -37,8 +37,10 @@
 		else {
 		    includeJavaScript("vendor/jquery/jquery-1.8.0.js");
 		}
-		includeJavaScript("vendor/jquery.mobile/jquery.mobile-1.1.1.js");
-		includeJavaScript("app/springboard.js");
+        setTimeout(function(){
+        	includeJavaScript("vendor/jquery.mobile/jquery.mobile-1.1.1.js");
+    		includeJavaScript("app/springboard.js");
+            }, 100);
 	</script>
     
     <!-- title of app -->
