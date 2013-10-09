@@ -86,35 +86,27 @@ Copyright (c) 2012, jQuery Foundation and other contributors.
 
 Springboard Icons
 -----------------
-* images/springboard/blogger.png
+* images/springboard/tumblr.png
 * images/springboard/facebook.png
-* images/springboard/flickr.png
+* images/springboard/instagram.png
 * images/springboard/youtube.png
 
-Copyright (c) 2010, Nikola Lazarevic
+Terms of Use
+--------------------
+YouTube
+---------
+http://www.youtube.com/yt/brand/using-logo.html
 
-* license: http://webexpedition18.com/articles/vintage-icon-set-for-bloggers/
+Facebook
+---------
+https://www.facebookbrand.com/guidelines?asset=2&media=1,2,3&platform=0
+https://www.facebookbrand.com/dos-donts
 
+Instagram
+---------
+http://help.instagram.com/304689166306603
 
-Back Button Icon
-----------------
-* images/backbtn/arrow.png
-
-Created by Intel Corporation, derived from the original source below.
-
-Licensed under the Creative Commons Attribution 3.0 license. 
-
-* original: http://www.flickr.com/photos/duchamp/248966632/  
-* license:  http://creativecommons.org/licenses/by/3.0/us/
-
-
-Fonts
-----------------
-* CoveredByYourGrace.ttf
-
-Copyright (c) 2010, Kimberly Geswein.
-
-* name:    Covered By YourGrace
-* source:  http://code.google.com/webfonts/specimen/Covered+By+Your+Grace
-* license: http://scripts.sil.org/OFL
+tumblr
+---------
+http://www.tumblr.com/docs/en/trademark_guidelines
 

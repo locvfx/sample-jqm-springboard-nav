@@ -8,8 +8,7 @@
 
 /* define our custom HTML5 web font */
 @font-face {
-    font-family: "CoveredByYourGrace";
-    src: url("../fonts/CoveredByYourGrace.ttf");
+    font-family: "Times New Roman";
 }
 
 /* set background color behind app (visible during flip transition) */
@@ -55,9 +54,18 @@ body {
 }
 
 /* don't let image overflow springboard grid nor exceed its native width */
-.springboard img {
-    max-width: 100%;
+@media all and (max-width: 321px) and (min-width: 0px){
+    .springboard img {
+        height: 50px;
+    }
 }
+
+@media all and (min-width: 322px){
+    .springboard img {
+        height: 75px;
+    }
+}
+
 
 /* keep springboard caption close to its corresponding icon */
 .springboard p {
@@ -66,7 +74,6 @@ body {
 
 /* specify custom hyperlink styling for springboard caption */
 .springboard a {
-    text-decoration: none;
 }
 
 /*--- custom styles for secondary springboard pages -----------------------------*/
@@ -82,10 +89,6 @@ body {
     position: absolute;
     top: 2px;
     left: 5px;
-}
-
-.springboard-backbtn img {
-    width: 35px;
 }
 
 /* custom fixed-position non-toolbar footer */
