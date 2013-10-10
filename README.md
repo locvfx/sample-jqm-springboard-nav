@@ -2,9 +2,9 @@ This sample is a multi-page jQuery Mobile scaffold using springboard-based navig
 It also demonstrates custom styling techniques to adapt to various screen sizes and 
 rotations, and achieve a different look and feel than jQuery Mobile defaults.
 
-Intel(R) HTML5 Development Environment Beta
+Intel(R) XDK
 -------------------------------------------
-This sample is part of the Intel(R) HTML5 Development Environment tool. 
+This sample is part of the Intel(R) XDK tool. 
 Please sign up the beta at http://software.intel.com/en-us/html5.
 To see the technical detail of the sample, please visit the sample article page 
 at http://software.intel.com/en-us/articles/jquery-mobile-springboard-navigation. 
@@ -19,7 +19,7 @@ License Information Follows
 * win8-proj/*.jsproj,*.pfx,*.appxmanifest
 * icon.png
 * config.xml
-* sample_icon_72x72.png
+* icon.png
 * abstract.txt
 * app.json
 * screenshot.png
