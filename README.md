@@ -5,7 +5,7 @@ rotations, and achieve a different look and feel than jQuery Mobile defaults.
 Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK tool. 
-Please sign up the beta at http://software.intel.com/en-us/html5.
+Download the Intel(R) XDK  at http://software.intel.com/en-us/html5.
 To see the technical detail of the sample, please visit the sample article page 
 at http://software.intel.com/en-us/articles/jquery-mobile-springboard-navigation. 
 
