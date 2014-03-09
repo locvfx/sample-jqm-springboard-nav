@@ -1,3 +1,5 @@
+/*jslint browser:true, devel:true, white:true, vars:true, eqeq:true */
+/*global $:false, intel:false*/
 /*
  * Copyright (c) 2012, Intel Corporation. All rights reserved.
  * File revision: 15 October 2012
@@ -17,8 +19,8 @@ var springboard = {
     /* set up springboard dynamic sizing capabilities */
     init: function() {
         /* initialize viewport dimensions */
-        springboard.VH1 = window.innerHeight,  
-        springboard.VH2 = window.innerWidth - 25, 
+        springboard.VH1 = window.innerHeight;  
+        springboard.VH2 = window.innerWidth - 25; 
         /* calculate size for initial orientation */
         springboard.calcSize();
         /* resize based on calculations */

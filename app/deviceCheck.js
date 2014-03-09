@@ -1,3 +1,5 @@
+/*jslint browser:true, devel:true, white:true, vars:true, eqeq:true */
+
 /*
 * Copyright (c) 2012, Intel Corporation. All rights reserved.
 * File revision: 04 October 2012
@@ -12,7 +14,7 @@ var deviceCheck = {
     ios: ua.match(/(iphone|ipod|ipad)/i),
     blackberry: ua.match(/blackberry/i),
     android: ua.match(/android/i),
-    windows7: ua.match(/windows phone os 7.5/i),
+    windowsphone: ua.match(/windows phone/i),
     windows8: ua.match(/msapphost/i)
 };
 
@@ -28,7 +30,7 @@ var browserCheck = {
 // detect HTML5 tag support
 var myDeviceSupport = {
     HTML5_audio: !!(document.createElement('audio').canPlayType),
-    HTML5_audio_mp3: !!(document.createElement('audio').canPlayType) && document.createElement('audio').canPlayType('audio/mpeg') != "",
-    HTML5_audio_wav: !!(document.createElement('audio').canPlayType) && document.createElement('audio').canPlayType('audio/wav') != "",
+    HTML5_audio_mp3: !!(document.createElement('audio').canPlayType) && document.createElement('audio').canPlayType('audio/mpeg') !== "",
+    HTML5_audio_wav: !!(document.createElement('audio').canPlayType) && document.createElement('audio').canPlayType('audio/wav') !== "",
     HTML5_geolocation: navigator.geolocation
 };
